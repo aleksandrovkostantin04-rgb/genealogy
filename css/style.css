@@ -1,0 +1,191 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background:rgb(250, 250, 97);
+
+
+}
+.container{
+width: 960px;
+position:relative;
+margin:0 auto;
+}
+.menu__item{
+list-style: none;
+display:inline-block;
+vertical-align: top;
+}
+.menu__link{
+text-decoration:none;
+color:black;
+vertical-align: top;
+margin:40px;
+}
+.menu__link-active{
+text-decoration:none;
+padding:5px 10px 5px 10px;
+color:black;
+border: 3px solid black;
+background:white;
+border-radius:25px;
+}
+.header{
+width: 960px;
+height: 140px;
+background:yellow;
+border: 2px solid black;
+}
+.header__logo{
+font-weight: bold;
+display:inline-block;
+width: 200px;
+font-size:25px;
+vertical-align:top;
+margin-left:40px;
+margin-top:10px;
+}
+.menu{
+width: 600px;
+text-align:right;
+vertical-align:top;
+display: inline-block;
+margin-top:40px;
+}
+.main{
+width:960px;
+height: 300px;
+background: lightcoral;
+padding: 20px 0 20px 50px;
+
+}
+.hero__content{
+    width: 600px;
+    display: inline-block;
+vertical-align: top;
+}
+.hero__title{
+ font-size: 40px; 
+ padding-top: 75px;  
+
+}
+.hero__text{
+font-size: 20px;
+padding-top: 40px;
+box-sizing: border-box;
+}
+.hero__button{
+font-size: 18px;
+padding: 7px 12px 7px 12px;
+background: yellow;
+border-radius: 50px;
+box-sizing: border-box;
+margin-top: 20px;
+
+}
+.circle{
+width: 200px;
+height: 200px;
+background: lightblue;
+border-radius: 100px;
+border: 5px solid black;
+margin-top: 40px;
+display: inline-block;
+vertical-align: top;
+}
+.hero__picture{
+width: 175px;
+    height: 175px;
+padding-left: 10px;
+}
+.generation{
+width: 960px;
+height: 400px;
+padding: 20px;
+}
+.generation__past, .generation__present, .generation__future{
+    width: 280px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+.generation__past{
+background: lightblue;
+margin-left: 10px;
+}
+.generation__present{
+background: rgb(14, 155, 203);
+margin-left: 10px;
+}
+.generation__future{
+background: yellow;
+margin-left: 6px;
+}
+.grandma{
+width: 70px;
+height: 70px;
+}
+.generation__past-title{
+font-size: 20px;
+
+}
+.generation__past-title2{
+      margin-top: 10px;
+font-size: 25px;
+
+
+}
+.generation__past-text{
+font-size: 25px;
+box-sizing: border-box;
+}
+.boy{
+width: 70px;
+height: 70px;
+}
+.generation__present-title{
+font-size: 20px;
+
+}
+.generation__present-title2{
+      margin-top: 10px;
+font-size:25px ;
+}
+.generation__present-text{
+font-size: 23px;
+
+
+}
+.robot{
+width: 70px;
+height: 70px;
+
+}
+.generation__future-title{
+font-size: 20px;
+}
+.generetion__future-title2{
+    margin-top: 10px;
+font-size: 25px;
+}
+.generation__future-text{
+font-size: 23px;
+}
+.footer{
+width: 960px;
+height: 75px;
+background: black;
+}
+.footer__text{
+color: yellow;
+padding: 20px;
+}
+.h2{
+margin-bottom: 10px;
+
+
+}
